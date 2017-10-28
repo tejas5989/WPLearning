@@ -1,0 +1,125 @@
+
+FILE: ...gins\e-product-feedback\admin\class-e-product-feedback-admin.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 103 | ERROR | Absolute include path must be used. Use
+     |       | get_template_directory, get_stylesheet_directory or
+     |       | plugin_dir_path.
+----------------------------------------------------------------------
+
+
+FILE: ...ns\e-product-feedback\admin\partials\functionality_adminside.php
+----------------------------------------------------------------------
+FOUND 22 ERRORS AND 19 WARNINGS AFFECTING 14 LINES
+----------------------------------------------------------------------
+  56 | ERROR   | Absolute include path must be used. Use
+     |         | get_template_directory, get_stylesheet_directory or
+     |         | plugin_dir_path.
+  76 | WARNING | Use Yoda Condition checks, you must.
+  79 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '"<input
+     |         | type='button' style='width:190px;height:
+     |         | 50px;margin-top: 10px' id='add_btn'
+     |         | value='$btn_label' onclick='popup_msg(
+     |         | $product_id,$pop_status );'/>"'
+  96 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$html_code'
+ 109 | WARNING | Detected access of super global var $_REQUEST,
+     |         | probably needs manual inspection.
+ 109 | WARNING | Processing form data without nonce verification.
+ 109 | ERROR   | Detected usage of a non-validated input variable:
+     |         | $_REQUEST
+ 109 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_REQUEST
+ 110 | WARNING | Detected access of super global var $_REQUEST,
+     |         | probably needs manual inspection.
+ 110 | WARNING | Processing form data without nonce verification.
+ 110 | ERROR   | Detected usage of a non-validated input variable:
+     |         | $_REQUEST
+ 110 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_REQUEST
+ 111 | WARNING | Detected access of super global var $_REQUEST,
+     |         | probably needs manual inspection.
+ 111 | WARNING | Processing form data without nonce verification.
+ 111 | ERROR   | Detected usage of a non-validated input variable:
+     |         | $_REQUEST
+ 111 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_REQUEST
+ 112 | WARNING | Detected access of super global var $_REQUEST,
+     |         | probably needs manual inspection.
+ 112 | WARNING | Processing form data without nonce verification.
+ 112 | ERROR   | Detected usage of a non-validated input variable:
+     |         | $_REQUEST
+ 112 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_REQUEST
+ 113 | WARNING | Detected access of super global var $_REQUEST,
+     |         | probably needs manual inspection.
+ 113 | WARNING | Processing form data without nonce verification.
+ 113 | ERROR   | Detected usage of a non-validated input variable:
+     |         | $_REQUEST
+ 113 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_REQUEST
+ 114 | WARNING | Detected access of super global var $_REQUEST,
+     |         | probably needs manual inspection.
+ 114 | WARNING | Processing form data without nonce verification.
+ 114 | ERROR   | Detected usage of a non-validated input variable:
+     |         | $_REQUEST
+ 114 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_REQUEST
+ 168 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$html_code'
+ 180 | WARNING | Detected access of super global var $_REQUEST,
+     |         | probably needs manual inspection.
+ 180 | WARNING | Processing form data without nonce verification.
+ 180 | ERROR   | Detected usage of a non-validated input variable:
+     |         | $_REQUEST
+ 180 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_REQUEST
+ 181 | WARNING | Detected access of super global var $_REQUEST,
+     |         | probably needs manual inspection.
+ 181 | WARNING | Processing form data without nonce verification.
+ 181 | ERROR   | Detected usage of a non-validated input variable:
+     |         | $_REQUEST
+ 181 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_REQUEST
+ 182 | WARNING | Detected access of super global var $_REQUEST,
+     |         | probably needs manual inspection.
+ 182 | WARNING | Processing form data without nonce verification.
+ 182 | ERROR   | Detected usage of a non-validated input variable:
+     |         | $_REQUEST
+ 182 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_REQUEST
+----------------------------------------------------------------------
+
+
+FILE: ...nt\plugins\e-product-feedback\admin\partials\option_settings.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AND 4 WARNINGS AFFECTING 3 LINES
+----------------------------------------------------------------------
+ 18 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 18 | WARNING | Use Yoda Condition checks, you must.
+ 25 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 25 | WARNING | Use Yoda Condition checks, you must.
+ 34 | ERROR   | Expected next thing to be an escaping function (see
+    |         | Codex for 'Data Validation'), not '$btn_lbl'
+----------------------------------------------------------------------
+
+
+FILE: ...\wp-content\plugins\e-product-feedback\public\js\jquery-1.8.2.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+
+FILE: ...ent\plugins\e-product-feedback\public\js\jquery.fancybox.pack.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+Time: 937ms; Memory: 14.25Mb
+

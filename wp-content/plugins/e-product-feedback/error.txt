@@ -1,0 +1,18 @@
+
+FILE: ...\wp-content\plugins\e-product-feedback\public\js\jquery-1.8.2.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+
+FILE: ...ent\plugins\e-product-feedback\public\js\jquery.fancybox.pack.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+Time: 789ms; Memory: 14Mb
+

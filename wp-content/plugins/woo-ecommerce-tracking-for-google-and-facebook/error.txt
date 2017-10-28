@@ -1,0 +1,585 @@
+
+FILE: ...n\class-woo-ecommerce-tracking-for-google-and-facebook-admin.php
+----------------------------------------------------------------------
+FOUND 85 ERRORS AND 64 WARNINGS AFFECTING 81 LINES
+----------------------------------------------------------------------
+  73 | WARNING | Detected access of super global var $_GET, probably
+     |         | needs manual inspection.
+  73 | WARNING | Processing form data without nonce verification.
+  73 | WARNING | Detected access of super global var $_GET, probably
+     |         | needs manual inspection.
+  73 | WARNING | Processing form data without nonce verification.
+  73 | WARNING | Detected access of super global var $_GET, probably
+     |         | needs manual inspection.
+  73 | WARNING | Processing form data without nonce verification.
+  73 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+  73 | WARNING | Use Yoda Condition checks, you must.
+ 101 | WARNING | Detected access of super global var $_GET, probably
+     |         | needs manual inspection.
+ 101 | WARNING | Processing form data without nonce verification.
+ 101 | WARNING | Detected access of super global var $_GET, probably
+     |         | needs manual inspection.
+ 101 | WARNING | Processing form data without nonce verification.
+ 101 | WARNING | Detected access of super global var $_GET, probably
+     |         | needs manual inspection.
+ 101 | WARNING | Processing form data without nonce verification.
+ 101 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 101 | WARNING | Use Yoda Condition checks, you must.
+ 116 | WARNING | Detected access of super global var $_POST, probably
+     |         | needs manual inspection.
+ 116 | ERROR   | Processing form data without nonce verification.
+ 116 | WARNING | Detected access of super global var $_POST, probably
+     |         | needs manual inspection.
+ 116 | ERROR   | Processing form data without nonce verification.
+ 116 | WARNING | Detected access of super global var $_POST, probably
+     |         | needs manual inspection.
+ 116 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_POST
+ 116 | ERROR   | Processing form data without nonce verification.
+ 117 | WARNING | Detected access of super global var $_SERVER,
+     |         | probably needs manual inspection.
+ 117 | ERROR   | Detected usage of a non-validated input variable:
+     |         | $_SERVER
+ 117 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_SERVER
+ 121 | WARNING | Unused variable $request_response.
+ 122 | ERROR   | Detected high remote request timeout. `timeout` is
+     |         | set to `45`.
+ 134 | WARNING | Unused variable $email_id.
+ 134 | WARNING | Detected access of super global var $_POST, probably
+     |         | needs manual inspection.
+ 134 | ERROR   | Detected usage of a non-validated input variable:
+     |         | $_POST
+ 134 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_POST
+ 134 | ERROR   | Processing form data without nonce verification.
+ 151 | WARNING | Detected access of super global var $_GET, probably
+     |         | needs manual inspection.
+ 151 | WARNING | Processing form data without nonce verification.
+ 187 | ERROR   | Absolute include path must be used. Use
+     |         | get_template_directory, get_stylesheet_directory or
+     |         | plugin_dir_path.
+ 188 | WARNING | Detected access of super global var $_GET, probably
+     |         | needs manual inspection.
+ 188 | WARNING | Processing form data without nonce verification.
+ 190 | WARNING | Detected access of super global var $_GET, probably
+     |         | needs manual inspection.
+ 190 | WARNING | Processing form data without nonce verification.
+ 190 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 190 | WARNING | Use Yoda Condition checks, you must.
+ 193 | WARNING | Detected access of super global var $_GET, probably
+     |         | needs manual inspection.
+ 193 | WARNING | Processing form data without nonce verification.
+ 193 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 193 | WARNING | Use Yoda Condition checks, you must.
+ 196 | WARNING | Detected access of super global var $_GET, probably
+     |         | needs manual inspection.
+ 196 | WARNING | Processing form data without nonce verification.
+ 196 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 196 | WARNING | Use Yoda Condition checks, you must.
+ 199 | WARNING | Detected access of super global var $_GET, probably
+     |         | needs manual inspection.
+ 199 | WARNING | Processing form data without nonce verification.
+ 199 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 199 | WARNING | Use Yoda Condition checks, you must.
+ 204 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$url'
+ 207 | ERROR   | Absolute include path must be used. Use
+     |         | get_template_directory, get_stylesheet_directory or
+     |         | plugin_dir_path.
+ 230 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$array'
+ 231 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$array'
+ 233 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$array'
+ 234 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$array'
+ 238 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$pointer'
+ 261 | ERROR   | get_user_meta() usage is highly discouraged, check
+     |         | VIP documentation on "Working with wp_users"
+ 270 | WARNING | Variable $new_pointer_content is undefined.
+ 274 | WARNING | Not using strict comparison for in_array; supply
+     |         | true for third argument.
+ 281 | WARNING | Detected access of super global var $_POST, probably
+     |         | needs manual inspection.
+ 281 | ERROR   | Processing form data without nonce verification.
+ 283 | WARNING | Detected access of super global var $_POST, probably
+     |         | needs manual inspection.
+ 283 | ERROR   | Processing form data without nonce verification.
+ 283 | WARNING | Detected access of super global var $_POST, probably
+     |         | needs manual inspection.
+ 283 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_POST
+ 283 | ERROR   | Processing form data without nonce verification.
+ 284 | WARNING | Detected access of super global var $_POST, probably
+     |         | needs manual inspection.
+ 284 | ERROR   | Processing form data without nonce verification.
+ 284 | WARNING | Detected access of super global var $_POST, probably
+     |         | needs manual inspection.
+ 284 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_POST
+ 284 | ERROR   | Processing form data without nonce verification.
+ 285 | WARNING | Detected access of super global var $_POST, probably
+     |         | needs manual inspection.
+ 285 | ERROR   | Processing form data without nonce verification.
+ 285 | WARNING | Detected access of super global var $_POST, probably
+     |         | needs manual inspection.
+ 285 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_POST
+ 285 | ERROR   | Processing form data without nonce verification.
+ 287 | WARNING | Detected access of super global var $_POST, probably
+     |         | needs manual inspection.
+ 287 | ERROR   | Processing form data without nonce verification.
+ 287 | WARNING | Detected access of super global var $_POST, probably
+     |         | needs manual inspection.
+ 287 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_POST
+ 287 | ERROR   | Processing form data without nonce verification.
+ 288 | WARNING | Detected access of super global var $_POST, probably
+     |         | needs manual inspection.
+ 288 | ERROR   | Processing form data without nonce verification.
+ 288 | WARNING | Detected access of super global var $_POST, probably
+     |         | needs manual inspection.
+ 288 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_POST
+ 288 | ERROR   | Processing form data without nonce verification.
+ 289 | WARNING | Detected access of super global var $_POST, probably
+     |         | needs manual inspection.
+ 289 | ERROR   | Processing form data without nonce verification.
+ 289 | WARNING | Detected access of super global var $_POST, probably
+     |         | needs manual inspection.
+ 289 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_POST
+ 289 | ERROR   | Processing form data without nonce verification.
+ 373 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '__'
+ 379 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 379 | WARNING | Use Yoda Condition checks, you must.
+ 389 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '__'
+ 395 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 395 | WARNING | Use Yoda Condition checks, you must.
+ 405 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '__'
+ 411 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 411 | WARNING | Use Yoda Condition checks, you must.
+ 424 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '__'
+ 426 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$Facebook_track'
+ 436 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '__'
+ 438 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not
+     |         | '$Google_conversion'
+ 448 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '__'
+ 450 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not
+     |         | '$Google_conversion_label'
+ 484 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 485 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 489 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 490 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 494 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 495 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 499 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 500 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 504 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 505 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 509 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 510 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 515 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 516 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 520 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 521 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 525 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 526 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 530 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 531 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 535 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 536 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 540 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 541 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 545 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 546 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 550 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 551 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 555 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 556 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 560 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 561 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'site_url'
+ 583 | ERROR   | Expected next thing to be an escaping function (like
+     |         | esc_html_e() or esc_attr_e()), not '_e'
+ 584 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$current_user'
+ 601 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'plugin_dir_url'
+ 623 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '__'
+ 633 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$plugin_name'
+ 637 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$plugin_version'
+----------------------------------------------------------------------
+
+
+FILE: ...-tracking-for-google-and-facebook\admin\css\font-awesome.min.css
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+
+FILE: ...racking-for-google-and-facebook\admin\js\jquery.fancybox.pack.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+
+FILE: ...-for-google-and-facebook\admin\partials\header\plugin-header.php
+----------------------------------------------------------------------
+FOUND 16 ERRORS AND 30 WARNINGS AFFECTING 15 LINES
+----------------------------------------------------------------------
+ 13 | ERROR   | Expected next thing to be an escaping function (see
+    |         | Codex for 'Data Validation'), not 'WSFL_PLUGIN_URL'
+ 17 | ERROR   | Expected next thing to be an escaping function (see
+    |         | Codex for 'Data Validation'), not '$plugin_name'
+ 18 | ERROR   | Expected next thing to be an escaping function (see
+    |         | Codex for 'Data Validation'), not '$plugin_version'
+ 23 | ERROR   | Expected next thing to be an escaping function (see
+    |         | Codex for 'Data Validation'), not 'site_url'
+ 24 | ERROR   | Expected next thing to be an escaping function (see
+    |         | Codex for 'Data Validation'), not 'site_url'
+ 31 | WARNING | Detected access of super global var $_GET, probably
+    |         | needs manual inspection.
+ 31 | WARNING | Processing form data without nonce verification.
+ 31 | WARNING | Detected access of super global var $_GET, probably
+    |         | needs manual inspection.
+ 31 | WARNING | Processing form data without nonce verification.
+ 31 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 31 | WARNING | Use Yoda Condition checks, you must.
+ 36 | WARNING | Detected access of super global var $_GET, probably
+    |         | needs manual inspection.
+ 36 | WARNING | Processing form data without nonce verification.
+ 36 | WARNING | Detected access of super global var $_GET, probably
+    |         | needs manual inspection.
+ 36 | WARNING | Processing form data without nonce verification.
+ 36 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 36 | WARNING | Use Yoda Condition checks, you must.
+ 41 | WARNING | Detected access of super global var $_GET, probably
+    |         | needs manual inspection.
+ 41 | WARNING | Processing form data without nonce verification.
+ 41 | WARNING | Detected access of super global var $_GET, probably
+    |         | needs manual inspection.
+ 41 | WARNING | Processing form data without nonce verification.
+ 41 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 41 | WARNING | Use Yoda Condition checks, you must.
+ 46 | WARNING | Detected access of super global var $_GET, probably
+    |         | needs manual inspection.
+ 46 | WARNING | Processing form data without nonce verification.
+ 46 | WARNING | Detected access of super global var $_GET, probably
+    |         | needs manual inspection.
+ 46 | WARNING | Processing form data without nonce verification.
+ 46 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 46 | WARNING | Use Yoda Condition checks, you must.
+ 51 | WARNING | Detected access of super global var $_GET, probably
+    |         | needs manual inspection.
+ 51 | WARNING | Processing form data without nonce verification.
+ 51 | WARNING | Detected access of super global var $_GET, probably
+    |         | needs manual inspection.
+ 51 | WARNING | Processing form data without nonce verification.
+ 51 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 51 | WARNING | Use Yoda Condition checks, you must.
+ 61 | ERROR   | Expected next thing to be an escaping function (see
+    |         | Codex for 'Data Validation'), not
+    |         | '$wc_tracking_for_google_and_facebook'
+ 61 | ERROR   | Expected next thing to be an escaping function (see
+    |         | Codex for 'Data Validation'), not '$site_url'
+ 65 | ERROR   | Expected next thing to be an escaping function (see
+    |         | Codex for 'Data Validation'), not
+    |         | '$premium_wc_tracking_for_google_and_facebook'
+ 65 | ERROR   | Expected next thing to be an escaping function (see
+    |         | Codex for 'Data Validation'), not '$site_url'
+ 69 | ERROR   | Expected next thing to be an escaping function (see
+    |         | Codex for 'Data Validation'), not
+    |         | '$wc_tracking_for_google_and_facebook_get_started_method'
+ 69 | ERROR   | Expected next thing to be an escaping function (see
+    |         | Codex for 'Data Validation'), not
+    |         | '$introduction_ecommerce_analytics'
+ 69 | ERROR   | Expected next thing to be an escaping function (see
+    |         | Codex for 'Data Validation'), not '$site_url'
+ 71 | ERROR   | Expected next thing to be an escaping function (see
+    |         | Codex for 'Data Validation'), not
+    |         | '$wc_tracking_for_google_and_facebook_get_started_method'
+ 71 | ERROR   | Expected next thing to be an escaping function (see
+    |         | Codex for 'Data Validation'), not '$site_url'
+ 72 | ERROR   | Expected next thing to be an escaping function (see
+    |         | Codex for 'Data Validation'), not
+    |         | '$introduction_ecommerce_analytics'
+ 72 | ERROR   | Expected next thing to be an escaping function (see
+    |         | Codex for 'Data Validation'), not '$site_url'
+----------------------------------------------------------------------
+
+
+FILE: ...for-google-and-facebook\admin\partials\header\plugin-sidebar.php
+----------------------------------------------------------------------
+FOUND 37 ERRORS AFFECTING 37 LINES
+----------------------------------------------------------------------
+  12 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+  16 | ERROR | Expected next thing to be an escaping function (see
+     |       | Codex for 'Data Validation'), not '$image_url'
+  17 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+  20 | ERROR | Expected next thing to be an escaping function (see
+     |       | Codex for 'Data Validation'), not '$image_url'
+  21 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+  24 | ERROR | Expected next thing to be an escaping function (see
+     |       | Codex for 'Data Validation'), not '$image_url'
+  25 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+  28 | ERROR | Expected next thing to be an escaping function (see
+     |       | Codex for 'Data Validation'), not '$image_url'
+  29 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+  36 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+  41 | ERROR | Expected next thing to be an escaping function (see
+     |       | Codex for 'Data Validation'), not 'WSFL_PLUGIN_URL'
+  42 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+  45 | ERROR | Expected next thing to be an escaping function (see
+     |       | Codex for 'Data Validation'), not 'WSFL_PLUGIN_URL'
+  46 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+  49 | ERROR | Expected next thing to be an escaping function (see
+     |       | Codex for 'Data Validation'), not 'WSFL_PLUGIN_URL'
+  50 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+  53 | ERROR | Expected next thing to be an escaping function (see
+     |       | Codex for 'Data Validation'), not 'WSFL_PLUGIN_URL'
+  54 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+  57 | ERROR | Expected next thing to be an escaping function (see
+     |       | Codex for 'Data Validation'), not 'WSFL_PLUGIN_URL'
+  58 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+  61 | ERROR | Expected next thing to be an escaping function (see
+     |       | Codex for 'Data Validation'), not 'WSFL_PLUGIN_URL'
+  62 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+  68 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+  74 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+  77 | ERROR | Expected next thing to be an escaping function (see
+     |       | Codex for 'Data Validation'), not 'WSFL_PLUGIN_URL'
+  78 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+  84 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+  89 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+  93 | ERROR | Expected next thing to be an escaping function (see
+     |       | Codex for 'Data Validation'), not 'WSFL_PLUGIN_URL'
+  94 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+  97 | ERROR | Expected next thing to be an escaping function (see
+     |       | Codex for 'Data Validation'), not 'WSFL_PLUGIN_URL'
+  98 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+ 101 | ERROR | Expected next thing to be an escaping function (see
+     |       | Codex for 'Data Validation'), not 'WSFL_PLUGIN_URL'
+ 102 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+ 105 | ERROR | Expected next thing to be an escaping function (see
+     |       | Codex for 'Data Validation'), not 'WSFL_PLUGIN_URL'
+ 106 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+ 112 | ERROR | Expected next thing to be an escaping function (like
+     |       | esc_html_e() or esc_attr_e()), not '_e'
+----------------------------------------------------------------------
+
+
+FILE: ...woo-ecommerce-tracking-for-google-and-facebook-admin-display.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 141 | WARNING | Unused variable $current_user.
+----------------------------------------------------------------------
+
+
+FILE: ...ass-woo-ecommerce-tracking-for-google-and-facebook-activator.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 33 | WARNING | Unused global variable $wpdb.
+----------------------------------------------------------------------
+
+
+FILE: ...ncludes\class-woo-ecommerce-tracking-for-google-and-facebook.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 7 WARNINGS AFFECTING 4 LINES
+----------------------------------------------------------------------
+ 179 | WARNING | Unused variable $site_url.
+ 194 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 194 | WARNING | Use Yoda Condition checks, you must.
+ 198 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 198 | WARNING | Use Yoda Condition checks, you must.
+ 202 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 202 | WARNING | Use Yoda Condition checks, you must.
+----------------------------------------------------------------------
+
+
+FILE: ...\class-woo-ecommerce-tracking-for-google-and-facebook-public.php
+----------------------------------------------------------------------
+FOUND 31 ERRORS AND 19 WARNINGS AFFECTING 31 LINES
+----------------------------------------------------------------------
+ 103 | WARNING | Unused global variable $woocommerce.
+ 104 | ERROR   | The use of PHP session function session_id() is
+     |         | prohibited.
+ 105 | ERROR   | The use of PHP session function session_start() is
+     |         | prohibited.
+ 116 | WARNING | Unused variable $server_name.
+ 116 | WARNING | Detected access of super global var $_SERVER,
+     |         | probably needs manual inspection.
+ 116 | ERROR   | Detected usage of a non-validated input variable:
+     |         | $_SERVER
+ 116 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_SERVER
+ 117 | WARNING | Unused variable $server_referer.
+ 117 | WARNING | Detected access of super global var $_SERVER,
+     |         | probably needs manual inspection.
+ 117 | ERROR   | Detected usage of a non-validated input variable:
+     |         | $_SERVER
+ 117 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_SERVER
+ 120 | WARNING | Unused variable $order_numer.
+ 121 | WARNING | Detected access of super global var $_SERVER,
+     |         | probably needs manual inspection.
+ 121 | ERROR   | Detected usage of a non-validated input variable:
+     |         | $_SERVER
+ 121 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 121 | WARNING | Detected access of super global var $_SERVER,
+     |         | probably needs manual inspection.
+ 128 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$order'
+ 129 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'get_option'
+ 130 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$order'
+ 131 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$order'
+ 132 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$order'
+ 133 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not
+     |         | 'get_woocommerce_currency'
+ 141 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$order'
+ 142 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$item'
+ 143 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not 'get_post_meta'
+ 145 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$item'
+ 146 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$item'
+ 147 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not
+     |         | 'get_woocommerce_currency'
+ 167 | WARNING | Unused variable $currency.
+ 168 | WARNING | Unused variable $total.
+ 173 | WARNING | Detected access of super global var $_GET, probably
+     |         | needs manual inspection.
+ 173 | WARNING | Processing form data without nonce verification.
+ 173 | WARNING | Detected access of super global var $_GET, probably
+     |         | needs manual inspection.
+ 173 | WARNING | Processing form data without nonce verification.
+ 198 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not
+     |         | '$ecommerce_tracking_settings_facebook_track_id'
+ 199 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$order'
+ 199 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$order'
+ 201 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not
+     |         | '$ecommerce_tracking_settings_facebook_track_id'
+ 238 | WARNING | Detected access of super global var $_GET, probably
+     |         | needs manual inspection.
+ 238 | WARNING | Processing form data without nonce verification.
+ 238 | WARNING | Detected access of super global var $_GET, probably
+     |         | needs manual inspection.
+ 238 | WARNING | Processing form data without nonce verification.
+ 242 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not
+     |         | '$ecommerce_tracking_settings_google_conversion_id'
+ 246 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not
+     |         | '$ecommerce_tracking_settings_google_conversion_label'
+ 247 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$total'
+ 248 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$currency'
+ 257 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not
+     |         | '$ecommerce_tracking_settings_google_conversion_id'
+ 257 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$total'
+ 257 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not '$currency'
+ 257 | ERROR   | Expected next thing to be an escaping function (see
+     |         | Codex for 'Data Validation'), not
+     |         | '$ecommerce_tracking_settings_google_conversion_label'
+----------------------------------------------------------------------
+
+
+FILE: ...blic\js\woo-ecommerce-tracking-for-google-and-facebook-public.js
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | WARNING | File appears to be minified and cannot be processed
+----------------------------------------------------------------------
+
+Time: 3.69 secs; Memory: 57.5Mb
+
